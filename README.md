@@ -1,18 +1,16 @@
-## Sensu-Plugins-disk-checks
+## Sensu-Plugins-lxc
 
-[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-lxc.svg?branch=master)][1]
-[![Gem Version](https://badge.fury.io/rb/sensu-plugins-lxc.svg)][2]
-[![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-lxc/badges/gpa.svg)][3]
-[![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-lxc/badges/coverage.svg)][4]
-[![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-lxc.svg)][5]
+[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-lxc.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-lxc)
+[![Gem Version](https://badge.fury.io/rb/sensu-plugins-lxc.svg)](http://badge.fury.io/rb/sensu-plugins-lxc)
+[![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-lxc/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-lxc)
+[![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-lxc/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-lxc)
+[![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-lxc.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-lxc)
 
 ## Functionality
 
 ## Files
- *
- *
- *
- *
+ * bin/check-lxc-memstat
+ * bin/check-lxc-status
 
 ## Usage
 
