@@ -38,7 +38,8 @@ class CheckLXCSTATUS < Sensu::Plugin::Check::CLI
          default: 'testdebian'
 
   def run
-    conn = LXC.container("#{config[:name]}")
+    lxc = LXC.new
+    conn = LXC::Container.new(:lxc => lxc, :name => "#{config[:name]}")
     if conn.exists?
       if conn.stopped?
         critical "container #{config[:name]} is Stopped"
