@@ -48,7 +48,8 @@ class CheckLXCMemstat < Sensu::Plugin::Check::CLI
          default: '90'
 
   def run
-    conn = LXC.container(config[:name].to_s)
+    lxc = LXC.new
+    conn = LXC.container.new(lxc: lxc, name: config[:name].to_s)
     if conn.exists?
       if conn.running?
         used = conn.memory_usage

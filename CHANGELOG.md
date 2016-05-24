@@ -10,6 +10,12 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ### Added
 - Ruby 2.3 support
 
+### Fixed
+- Fix method missing error on Ruby 2
+
+### Changed
+- Update to rubocop 0.40 and cleanup
+
 ## [0.0.3] - 2015-07-14
 ### Changed
 - updated sensu-plugin gem to 1.2.0
