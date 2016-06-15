@@ -39,7 +39,7 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 - initial release
 
 [Unreleased]: https://github.com/sensu-plugins/sensu-plugins-lxc/compare/1.0.1...HEAD
-[1.0.0]: https://github.com/sensu-plugins/sensu-plugins-lxc/compare/1.0.0...1.0.1
+[1.0.1]: https://github.com/sensu-plugins/sensu-plugins-lxc/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/sensu-plugins/sensu-plugins-lxc/compare/0.0.3...1.0.0
 [0.0.3]: https://github.com/sensu-plugins/sensu-plugins-lxc/compare/0.0.2...0.0.3
 [0.0.2]: https://github.com/sensu-plugins/sensu-plugins-lxc/compare/0.0.1...0.0.2
