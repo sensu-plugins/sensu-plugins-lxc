@@ -5,6 +5,11 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## [Unreleased]
 
+## [1.0.1] - 2016-06-15
+### Fixed
+
+- Actually fixed method missing error by using `LXC::Container` object
+
 ## [1.0.0] - 2016-05-23
 ### Removed
 - Ruby 1.9.3 support
