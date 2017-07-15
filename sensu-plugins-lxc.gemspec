@@ -3,11 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 require 'date'
 
-if RUBY_VERSION < '2.0.0'
-  require 'sensu-plugins-lxc'
-else
-  require_relative 'lib/sensu-plugins-lxc'
-end
+require_relative 'lib/sensu-plugins-lxc'
 
 Gem::Specification.new do |s|
   s.authors                = ['Sensu Plugins and contributors']
