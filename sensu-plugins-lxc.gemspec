@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
   s.version                = SensuPluginsLxc::Version::VER_STRING
 
-  s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
+  s.add_runtime_dependency 'sensu-plugin', '>= 1.2', '< 5.0'
   s.add_runtime_dependency 'lxc', '0.6.0'
   s.add_runtime_dependency 'activesupport', '~> 4.2'
 
